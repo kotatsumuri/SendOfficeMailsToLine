@@ -39,11 +39,13 @@ def callback():
     return 'OK'
 
 
+'''
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text=event.message.text))
+'''
 
 @handler.add(FollowEvent)
 def handle_follow(event):
