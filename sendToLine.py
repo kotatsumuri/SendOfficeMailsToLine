@@ -9,7 +9,6 @@ from info import getChannelSecret
  
 # （2）LINE APIへ接続するための定数を定義。
 LINE_CHANNEL_SECRET= getChannelSecret()
-#LINE_USER_ID= "Ud2fef4455d2baaab96b953d7d59ae042" # ライン
  
 # LINE APIを定義。引数にアクセストークンを与える。
 line_bot_api = LineBotApi(LINE_CHANNEL_SECRET)
